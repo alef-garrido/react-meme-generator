@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;600;700&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Karla', sans-serif;
 }
 
 .App-logo {
-  height: 40px;
+  height: 20px;
   pointer-events: none;
 }
 
@@ -63,26 +66,32 @@ nav > h4 {
   width: 100%;
   margin: 3rem 0 1rem 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .textInputs > input[type=text] {
+  font-family: 'Karla', sans-serif;
   width: 40%;
   border: 1px solid #e5e5e5;
   border-radius: 5px;
   padding: .5rem;
 }
 
-button {
+.textInputs > button {
+  font-family: 'Karla', sans-serif;
   width: 90%;
   color: white;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   border: none;
   border-radius: 6px;
+  margin-top: 1rem;
   padding: 1rem 0;
   font-size: 16px;
   font-weight: 700;
 }
+
+
 
 

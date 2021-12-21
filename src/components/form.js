@@ -1,12 +1,16 @@
 export default function Form() {
+  function myOnClick() {
+    return(
+      console.log('hey kittie gurl!')
+    )
+  }
   return (
-    <div>
-      <form className="textInputs">
-        < input type="text" name="text1" placeholder="Shut up"/>
-        < input type="text" name="text2" placeholder="and take my money"/>
-      </form>
-      <button>Get me a new Meme 🖼️</button>
-
-    </div>
+    <main>
+      <div className="textInputs">
+        < input type="text" name="text1" placeholder="Top text"/>
+        < input type="text" name="text2" placeholder="Bottom text"/>
+        <button onClick={myOnClick}>Get me a new Meme 🖼️</button>
+      </div>
+    </main>
   )
 }
