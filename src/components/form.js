@@ -1,8 +1,9 @@
 import React from 'react';
 import memesData from "../memesData"
 
+
 export default function Form() {
-  const [memeImage, setImage] = React.useState('') 
+  const [memeImage, setImage] = React.useState("./img/sampleMeme.jpg") 
   function myOnClick() {
     const memeArr = memesData.data.memes
     const randomN = Math.floor(Math.random() * memeArr.length)
